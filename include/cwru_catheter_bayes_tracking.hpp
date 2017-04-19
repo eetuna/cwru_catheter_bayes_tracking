@@ -1,5 +1,5 @@
 //
-// Created by surgical36 on 4/19/17.
+// Created by eet12 on 4/19/17.
 //
 
 #ifndef CWRU_CATHETER_BAYES_TRACKING_H
@@ -33,4 +33,4 @@ class Bayes_base {
 
 }
 
-#endif //CWRU_ROBOTICS_BAYES_TRACKING_H
+#endif //CWRU_CATHETER_BAYES_TRACKING_H

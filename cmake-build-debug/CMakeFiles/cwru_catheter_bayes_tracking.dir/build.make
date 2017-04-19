@@ -57,41 +57,67 @@ include CMakeFiles/cwru_catheter_bayes_tracking.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cwru_catheter_bayes_tracking.dir/flags.make
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o: CMakeFiles/cwru_catheter_bayes_tracking.dir/flags.make
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o -c /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/main.cpp
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o: CMakeFiles/cwru_catheter_bayes_tracking.dir/flags.make
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o: ../examples/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o -c /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/examples/main.cpp
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/main.cpp > CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.i
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/examples/main.cpp > CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.i
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/main.cpp -o CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.s
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/examples/main.cpp -o CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.s
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.requires:
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.requires
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.provides: CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.provides
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.provides: CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.provides.build
+.PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.provides
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.provides.build: CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o
+CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.provides.build: CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o
+
+
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o: CMakeFiles/cwru_catheter_bayes_tracking.dir/flags.make
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o: ../src/cwrt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o -c /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/src/cwrt.cpp
+
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/src/cwrt.cpp > CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.i
+
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/src/cwrt.cpp -o CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.s
+
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.requires:
+
+.PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.requires
+
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.provides: CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.provides.build
+.PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.provides
+
+CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.provides.build: CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o
 
 
 # Object files for target cwru_catheter_bayes_tracking
 cwru_catheter_bayes_tracking_OBJECTS = \
-"CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o"
+"CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o" \
+"CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o"
 
 # External object files for target cwru_catheter_bayes_tracking
 cwru_catheter_bayes_tracking_EXTERNAL_OBJECTS =
 
-cwru_catheter_bayes_tracking: CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o
+cwru_catheter_bayes_tracking: CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o
+cwru_catheter_bayes_tracking: CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o
 cwru_catheter_bayes_tracking: CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make
 cwru_catheter_bayes_tracking: CMakeFiles/cwru_catheter_bayes_tracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cwru_catheter_bayes_tracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cwru_catheter_bayes_tracking"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cwru_catheter_bayes_tracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/cwru_catheter_bayes_tracking.dir/build: cwru_catheter_bayes_tracking
 
 .PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/build
 
-CMakeFiles/cwru_catheter_bayes_tracking.dir/requires: CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o.requires
+CMakeFiles/cwru_catheter_bayes_tracking.dir/requires: CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o.requires
+CMakeFiles/cwru_catheter_bayes_tracking.dir/requires: CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o.requires
 
 .PHONY : CMakeFiles/cwru_catheter_bayes_tracking.dir/requires
 

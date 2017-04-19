@@ -123,32 +123,59 @@ cwru_catheter_bayes_tracking/fast:
 	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/build
 .PHONY : cwru_catheter_bayes_tracking/fast
 
-main.o: main.cpp.o
+examples/main.o: examples/main.cpp.o
 
-.PHONY : main.o
+.PHONY : examples/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.o
-.PHONY : main.cpp.o
+examples/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.o
+.PHONY : examples/main.cpp.o
 
-main.i: main.cpp.i
+examples/main.i: examples/main.cpp.i
 
-.PHONY : main.i
+.PHONY : examples/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.i
-.PHONY : main.cpp.i
+examples/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.i
+.PHONY : examples/main.cpp.i
 
-main.s: main.cpp.s
+examples/main.s: examples/main.cpp.s
 
-.PHONY : main.s
+.PHONY : examples/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/main.cpp.s
-.PHONY : main.cpp.s
+examples/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/examples/main.cpp.s
+.PHONY : examples/main.cpp.s
+
+src/cwrt.o: src/cwrt.cpp.o
+
+.PHONY : src/cwrt.o
+
+# target to build an object file
+src/cwrt.cpp.o:
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.o
+.PHONY : src/cwrt.cpp.o
+
+src/cwrt.i: src/cwrt.cpp.i
+
+.PHONY : src/cwrt.i
+
+# target to preprocess a source file
+src/cwrt.cpp.i:
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.i
+.PHONY : src/cwrt.cpp.i
+
+src/cwrt.s: src/cwrt.cpp.s
+
+.PHONY : src/cwrt.s
+
+# target to generate assembly for a file
+src/cwrt.cpp.s:
+	$(MAKE) -f CMakeFiles/cwru_catheter_bayes_tracking.dir/build.make CMakeFiles/cwru_catheter_bayes_tracking.dir/src/cwrt.cpp.s
+.PHONY : src/cwrt.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cwru_catheter_bayes_tracking"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... examples/main.o"
+	@echo "... examples/main.i"
+	@echo "... examples/main.s"
+	@echo "... src/cwrt.o"
+	@echo "... src/cwrt.i"
+	@echo "... src/cwrt.s"
 .PHONY : help
 
 

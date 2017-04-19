@@ -84,10 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/include/cwru_catheter_bayes_tracking.h">
+		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/examples/main.cpp">
 			<Option target="cwru_catheter_bayes_tracking"/>
 		</Unit>
-		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/main.cpp">
+		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/include/cwru_catheter_bayes_tracking.hpp">
+			<Option target="cwru_catheter_bayes_tracking"/>
+		</Unit>
+		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/src/cwrt.cpp">
+			<Option target="cwru_catheter_bayes_tracking"/>
+		</Unit>
+		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/src/cwrt.h">
 			<Option target="cwru_catheter_bayes_tracking"/>
 		</Unit>
 		<Unit filename="/home/surgical36/CLionProjects/cwru_catheter_bayes_tracking/CMakeLists.txt">
